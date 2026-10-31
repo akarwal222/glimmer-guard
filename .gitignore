@@ -7,8 +7,8 @@ __pycache__/
 .pytest_cache/
 
 # Secrets
+.venv
 .env
-.env.*
 !.env.example
 
 # Data and activations (large files stay local or on Modal volumes)
@@ -35,3 +35,6 @@ huggingface/
 Thumbs.db
 .vscode/
 .idea/
+
+# Local Claude instructions
+CLAUDE.md
