@@ -1,0 +1,12 @@
+# Local dependencies only. GPU dependencies (torch, transformers, bitsandbytes)
+# are installed inside the Modal image, not on the laptop.
+modal
+python-dotenv
+numpy
+scikit-learn
+pandas
+matplotlib
+streamlit
+# Placeholder HTTP client until the Meta Model API client is confirmed
+requests
+pytest

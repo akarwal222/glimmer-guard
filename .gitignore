@@ -1,0 +1,37 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Data and activations (large files stay local or on Modal volumes)
+data/raw/
+activations/
+*.pt
+*.npy
+*.npz
+*.safetensors
+
+# Tooling
+.modal/
+.modal.toml
+wandb/
+.ipynb_checkpoints/
+
+# Hugging Face cache
+.cache/
+hf_cache/
+huggingface/
+
+# OS and editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
